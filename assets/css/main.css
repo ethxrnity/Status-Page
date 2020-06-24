@@ -1,0 +1,226 @@
+body,html {
+
+background:url(https://ethxrnity.codes/status/assets/images/background.png) center no-repeat;
+
+height: 100%;
+
+font-family: Roboto, sans-serif;
+
+font-size: 20px;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center
+
+}
+
+
+
+body:before {
+
+content:""; width:100%; height:100%; background:rgba(0,0,0,0.8);
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+z-index: 10
+
+}
+
+
+
+h1,h2{
+
+font-weight: 400;
+
+letter-spacing: -4px
+
+}
+
+
+
+.card {
+
+position: absolute;
+
+margin: 0 auto;
+
+padding: 0;
+
+width: 200px;
+
+min-width: 700px;
+
+background: #ffffff;
+
+border-radius: 20px;
+
+box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.3);
+
+animation: float 6s ease-in-out infinite;
+
+overflow: hidden;
+
+z-index: 999;
+
+}
+
+
+
+.header {
+
+position: relative;
+
+z-index:1;
+
+width: 100%;
+
+height: 180px;
+
+border-bottom: 3px solid #aaa;
+
+overflow: hidden;
+
+}
+
+
+
+.card img {
+
+width: 100%;
+
+transition: all 1s ease;
+
+z-index: 0
+
+}
+
+
+
+.image {
+
+width: 100%;
+
+height: 180px;
+
+overflow: hidden;
+
+}
+
+
+
+.image:hover img {
+
+-webkit-transform: scale(1.2, 1.2);
+
+transform: scale(1.2, 1.2);
+
+}
+
+
+
+.header h2 {
+
+position: absolute;
+
+bottom: 0;
+
+margin: 0;
+
+width: 100%;
+
+padding: 0 10px;
+
+color: #000;
+
+pointer-events: none;
+
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+
+}
+
+
+
+.icon {
+
+position: absolute;
+
+right: 10px;
+
+top: 135px;
+
+width: 80px;
+
+height: 80px;
+
+border-radius: 50%;
+
+overflow: hidden;
+
+z-index: 9;
+
+}
+
+
+
+#rest {
+
+padding: 30px 15px;
+
+line-height: 30px;
+
+color: #282b30;
+
+}
+
+
+
+#text {
+
+left:10;
+
+}
+
+
+
+.yourdiv {
+
+display: inline;
+
+
+
+}
+
+
+
+@keyframes float {
+
+0% {
+
+box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+
+transform: translatey(0px);
+
+}
+
+50% {
+
+box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+
+transform: translatey(-20px);
+
+}
+
+100% {
+
+box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+
+transform: translatey(0px);
+
+}}
+
