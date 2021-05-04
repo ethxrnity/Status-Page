@@ -42,7 +42,13 @@ letter-spacing: -4px
 
 }
 
-
+.link {
+    text-decoration: none;
+    color: #4f4f4f;
+}
+.link:hover {
+    color: black;
+}
 
 .card {
 
